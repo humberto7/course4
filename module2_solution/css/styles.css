@@ -26,18 +26,21 @@ h1 {
 	background-color: yellow;
 	height: 30px;
 	padding: 0px;
+	background-color: gray;
 }	
 
 .card-title {
 	position: absolute;
 	top: 0px;
-	right: 0px;
+	right: -1px;
     background-color: #A52A2A;
-	padding: 0;
+	padding: 0px;
 	width: 100px;
 	height: 30px;
 	top: 0;
 	right: 0;
+	border: 2px solid black;
+	margin: 0px;
 	-webkit-margin-before: 0px;
 	-webkit-margin-after: 0px;
 	/*float: right;*/
@@ -54,9 +57,21 @@ section {
 }
 
 .card {
-	border: 1px solid black;
+	border: 2px solid black;
 	margin: 10px;
+	background-color: gray;
 }
+
+#Beef {
+	background-color: rgb(193, 69, 67);
+	color: white;
+}	
+#Chicken {
+	background-color: rgb(213, 152, 152);
+}	
+#Sushi {
+	background-color: rgb(229, 209, 152);
+}	
 /********** Medium devices only **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
