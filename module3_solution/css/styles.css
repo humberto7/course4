@@ -1,0 +1,20 @@
+/** HEADER **/
+#header-nav {
+	background-color: #CCCC;
+	//color: white;
+	border-radius: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.card {
+	background-color: cyan;
+	margin: 10px 10px 10px 10px;
+}
+
+#header-container {
+		margin-left: 15px;
+}
+
+h3 {
+	text-align: center;
+}
